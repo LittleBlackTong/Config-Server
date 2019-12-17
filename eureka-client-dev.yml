@@ -4,3 +4,5 @@ spring:
     name: eureka-client
 server:
   port: 8763
+config:
+  commentlength: 500
