@@ -2,7 +2,13 @@ env: dev
 spring:
   application:
     name: eureka-client
+  rabbitmq:
+    host: 127.0.0.1
+    port: 15672
+    username: guest
+    password: guest
 server:
   port: 8763
 config:
   commentlength: 400
+  
