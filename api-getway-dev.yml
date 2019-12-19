@@ -1,0 +1,12 @@
+zuul:
+  host:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 60000
+  retryable: true
+  routes:
+    config-server:
+      path: /myConfig/**
+      serviceId: config-server
+      sensitiveHeaders:
+ribbon:
+  ReadTimeout: 2000
