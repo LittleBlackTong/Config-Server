@@ -5,7 +5,7 @@ zuul:
   retryable: true
   routes:
     config-server:
-      path: /Config/**
+      path: /myConfig/**
       serviceId: config-server
       sensitiveHeaders:
 ribbon:
