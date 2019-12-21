@@ -7,6 +7,11 @@ spring:
     username: root
     password: root
     url: jdbc:mysql://127.0.0.1:3306/develop?autoReconnect=true&useOldAliasMetadataBehavior=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    show-sql: false
   rabbitmq:
     host: 127.0.0.1
     password: guest
