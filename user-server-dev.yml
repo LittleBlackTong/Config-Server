@@ -3,10 +3,10 @@ server:
   port: 5000
 spring:
   datasource:
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/read_data?useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
-    password: root
-    url: jdbc:mysql://127.0.0.1:3306/develop?autoReconnect=true&useOldAliasMetadataBehavior=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: none
