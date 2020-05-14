@@ -1,0 +1,9 @@
+env: dev
+spring:
+  application:
+    name: service-api
+server:
+  port: 5620
+config:
+  commentlength: 400
+  
