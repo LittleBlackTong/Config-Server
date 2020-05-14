@@ -2,8 +2,12 @@ env: dev
 spring:
   application:
     name: service-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/newsfeed?autoReconnect=true&useOldAliasMetadataBehavior=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
 server:
   port: 5620
 config:
   commentlength: 400
-  
