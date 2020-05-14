@@ -6,5 +6,12 @@ zuul:
   semaphore:
     max-semaphores: 200
   routes:
-    config-server: /config/xxx
-    service-api: /service/api
+    service-api:
+      path: /service/api/**
+      serviceId: service-api
+      sensitiveHeaders:
+    config-server:
+      path: /config/**
+      serviceId: config-server
+      sensitiveHeaders:
+      
