@@ -16,4 +16,4 @@ server:
   port: 5620
 config:
   commentLength: 400
-  prompt: one foot high, one foot high
+  prompt: one foot high, one foot high!!!
