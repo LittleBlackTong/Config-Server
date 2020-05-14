@@ -10,4 +10,4 @@ spring:
 server:
   port: 5620
 config:
-  commentlength: 400
+  commentLength: 400
