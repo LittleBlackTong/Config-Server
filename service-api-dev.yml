@@ -17,8 +17,3 @@ server:
 config:
   commentLength: 400
   prompt: one foot high, one foot high!
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
