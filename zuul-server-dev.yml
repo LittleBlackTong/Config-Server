@@ -1,14 +1,10 @@
 zuul:
-  sensitive-headers: 
+  sensitive-headers:
   host:
     max-total-connections: 10000
     max-per-route-connections: 10000
   semaphore:
     max-semaphores: 200
-  routes: 
-    config-server:
-      path: /config/**
-      serviceId: CONFIG-SERVER
-    service-api:
-      path: /service/api/**
-      serviceId: SERVICE-API
+  routes:
+    config-server: /config/xxx
+    service-api: /service/api
