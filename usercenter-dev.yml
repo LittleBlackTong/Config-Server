@@ -1,0 +1,19 @@
+  
+env: dev
+spring:
+  application:
+    name: usercenter
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/newsfeed?autoReconnect=true&useOldAliasMetadataBehavior=true&useUnicode=true&characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 5621
+config:
+  prompt: one foot high, one foot high!!!
