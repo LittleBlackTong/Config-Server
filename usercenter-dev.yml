@@ -15,5 +15,6 @@ spring:
     password: guest
 server:
   port: 5621
-config:
+usercenter:
+  config:
   prompt: one foot high, one foot high!!!
